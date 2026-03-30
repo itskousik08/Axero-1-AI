@@ -24,7 +24,6 @@ async function getReply(input) {
         }
     }
 
-    // If no match, fetch info online
     if(maxScore === 0){
         best = await fetchFromWeb(input);
     }

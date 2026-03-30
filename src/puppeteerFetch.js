@@ -8,7 +8,7 @@ async function fetchFromWeb(query) {
         // Google search
         await page.goto(`https://www.google.com/search?q=${encodeURIComponent(query)}`);
         
-        // Wait for search results
+        // Wait for results
         await page.waitForSelector('h3');
         const results = await page.evaluate(() => {
             const items = Array.from(document.querySelectorAll('h3'));

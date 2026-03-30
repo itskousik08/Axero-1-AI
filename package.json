@@ -1,0 +1,12 @@
+{
+  "name": "axero-1-ai",
+  "version": "1.0.0",
+  "main": "src/chat.js",
+  "scripts": {
+    "train": "node src/train.js",
+    "chat": "node src/chat.js"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.10.0"
+  }
+}

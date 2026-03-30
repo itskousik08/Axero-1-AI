@@ -6,7 +6,5 @@
     "train": "node src/train.js",
     "chat": "node src/chat.js"
   },
-  "dependencies": {
-    "@tensorflow/tfjs-node": "^4.10.0"
-  }
+  "dependencies": {}
 }

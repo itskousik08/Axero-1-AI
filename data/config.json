@@ -1,0 +1,7 @@
+{
+  "name": "Axero-1-AI",
+  "owner": "Kousik",
+  "language": "English",
+  "webSearch": true,
+  "chromePath": "/usr/bin/chromium-browser"
+}
